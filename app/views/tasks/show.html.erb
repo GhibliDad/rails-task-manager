@@ -3,4 +3,4 @@
 <p><strong>Completed? <%= @task.completed ? "[X]" : "[ ]" %></strong></p>
 <p><%= link_to "BACK TO TASKS", tasks_path %></p>
 <p><%= link_to "EDIT TASK", edit_task_path(@task) %></p>
-<p><%= link_to "DESTROY TASK", task_path(@task), method: :delete, data: { confirm: "Are you sure?"} %></p>
+<p><%= link_to "DESTROY TASK", task_path(@task), method: :delete, data: { confirm: "Are you sure?" } %></p>
